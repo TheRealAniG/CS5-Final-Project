@@ -1,2 +1,2 @@
 # CS5-Final-Project
-Uses a Genetic Algorithm to Solve an Empty Maze
+My college created something called Picobot. Picobot is a simulation where a robot tries to solve a maze using a set of rules inputed by the user. The rules include the current state and surroundings, and based off those it moves in a new direction and into a new state. The code I created has a function GA that makes a random set of rules using a genetic algorithm to solve the empty picobot maze. The more generations and programs created, the better the final set of rules is at solving the maze.
