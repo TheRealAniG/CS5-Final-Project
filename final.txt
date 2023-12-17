@@ -1,0 +1,67 @@
+I tested my code by running each function after writing it, and testing it with multiple values multiple times
+I also used print statements to debug problems when they arose which was very helpful
+
+I used 10% of the population to mate because that is the value the assignment recommended and it seemed
+like a good value to balance diversity and quaility
+
+I just mated the most fit programs randomly using the crossover function which was implemented exactly the way
+the assignment recommended. I decided to mutate every child program instead of 1/3 of them because this gave me better results.
+Mutating more often tended to give me a better best program. However, mating too much is bad too.
+
+My most fit picobot program filled the entire maze! It did so by horizontally going back and forth accross the whole box,
+it also did some random intresting things in a few spots.
+
+Generation 19
+ Average Fitness:  0.8111510000000002
+ Best Fitness:  1.0
+
+Best Picobot program:
+0 NExx -> S 2
+0 NxWx -> E 1
+0 Nxxx -> W 2
+0 xExS -> N 0
+0 xExx -> S 3
+0 xxWS -> N 4
+0 xxWx -> E 0
+0 xxxS -> E 1
+0 xxxx -> W 2
+
+1 NExx -> W 1
+1 NxWx -> E 3
+1 Nxxx -> W 3
+1 xExS -> W 3
+1 xExx -> S 3
+1 xxWS -> E 4
+1 xxWx -> E 0
+1 xxxS -> W 4
+1 xxxx -> E 1
+
+2 NExx -> W 2
+2 NxWx -> E 3
+2 Nxxx -> S 0
+2 xExS -> N 3
+2 xExx -> N 2
+2 xxWS -> E 3
+2 xxWx -> N 1
+2 xxxS -> W 1
+2 xxxx -> N 0
+
+3 NExx -> S 1
+3 NxWx -> S 1
+3 Nxxx -> S 1
+3 xExS -> N 3
+3 xExx -> W 3
+3 xxWS -> N 4
+3 xxWx -> S 4
+3 xxxS -> E 4
+3 xxxx -> W 3
+
+4 NExx -> S 3
+4 NxWx -> E 2
+4 Nxxx -> S 1
+4 xExS -> N 2
+4 xExx -> W 3
+4 xxWS -> E 4
+4 xxWx -> E 1
+4 xxxS -> E 4
+4 xxxx -> S 1
